@@ -14,7 +14,7 @@
   fi
 } &!
 
-if (( $+commands[fortune] )); then
+if (( $+commands[figlet] )); then
   figlet -f slant Hack Reactor
   print
 fi
