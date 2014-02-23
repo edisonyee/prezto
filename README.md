@@ -5,11 +5,18 @@ Prezto is the configuration framework for [Zsh][1]; it enriches the command line
 interface environment with sane defaults, aliases, functions, auto completion,
 and prompt themes.
 
+This repo contains the Zsh configuration used on all workstations on the fourth floor.
+The intructions below assume that you've already provisioned the workstation
+using ansible. In the future, this entire process will be automated using ansible.
+
 Installation
 ------------
 
 Prezto will work with any recent release of Zsh, but the minimum recommended
 version is 4.3.11.
+  0. Install figlet
+
+        brew install figlet
 
   1. Launch Zsh:
 
@@ -17,7 +24,7 @@ version is 4.3.11.
 
   2. Clone the repository:
 
-        git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+        git clone --recursive https://github.com/hackreactor-labs/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
   3. Create a new Zsh configuration by copying the Zsh configuration files
      provided:
