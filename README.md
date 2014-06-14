@@ -31,12 +31,19 @@ version is 4.3.11.
 
         setopt EXTENDED_GLOB && for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"; done
 
-
   4. Set Zsh as your default shell:
 
         chsh -s /bin/zsh
 
   5. Open a new Zsh terminal window or tab.
+
+  6. Read the runcoms readme by running `open ~/.zprezto/runcoms/README.md` to get a sense of how prezto works and how to customize your shell further.
+
+  7. You can start by changing the default welcome message from "Hack Reactor" by editing `~/.zprezto/runcoms/zlogin`
+  
+  8. If you like, install the Solarized color schemes by running
+
+        open "${ZDOTDIR:-$HOME}"/.zprezto/assets/SolarizedDarkxterm-256color.terminal && open "${ZDOTDIR:-$HOME}"/.zprezto/assets/SolarizedLightxterm-256color.terminal
 
 Uninstallation
 ------------
@@ -53,9 +60,6 @@ If your wings get burned because you've flown to close to the sun, fear not! Fol
 
   3. Open a new Zsh terminal window or tab.
   
-  4. Read the runcoms readme by running `open ~/.zprezto/runcoms/README.md` to get a sense of how prezto works and how to customize your shell further.
-
-  5. You can start by changing the default welcome message from "Hack Reactor" by editing `~/.zprezto/runcoms/zlogin`
   
 ### Troubleshooting
 
