@@ -14,7 +14,7 @@ Installation
 
 Prezto will work with any recent release of Zsh, but the minimum recommended
 version is 4.3.11.
-  0. Install figlet
+  0. Install figlet:
 
         brew install figlet
 
@@ -51,9 +51,9 @@ Getting Started
 Uninstallation
 ------------
 
-If your wings get burned because you've flown to close to the sun, fear not! Follow the steps below to revert the changes.
+If your wings get burned because you've flown too close to the sun, fear not! Follow the steps below to revert the changes.
 
-  1. Un-Install prezto
+  1. Un-Install prezto:
 
         rm ~/.zlogin && rm ~/.zlogout && rm ~/.zpreztorc && rm ~/.zprofile && rm ~/.zshenv && rm ~/.zshrc && rm ~/.zprezto
 
@@ -73,7 +73,7 @@ window or tab.
 Updating
 --------
 
-Pull the latest changes and update submodules.
+Pull the latest changes and update submodules:
 
     git pull && git submodule update --init --recursive
 
@@ -81,7 +81,7 @@ Usage
 -----
 
 Prezto has many features disabled by default. Read the source code and
-accompanying README files to learn of what is available.
+accompanying README files to find out what is available.
 
 ### Modules
 
@@ -102,8 +102,7 @@ Customization
 -------------
 
 The project is managed via [Git][3]. It is highly recommended that you fork this
-project; so, that you can commit your changes and push them to [GitHub][4] to
-not lose them. If you do not know how to use Git, follow this [tutorial][5] and
+project–you can commit your changes and push them to [GitHub][4] so you don't lose them. If you do not know how to use Git, follow this [tutorial][5] and
 bookmark this [reference][6].
 
 Resources
