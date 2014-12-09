@@ -15,6 +15,6 @@
 } &!
 
 if (( $+commands[figlet] )); then
-  figlet -f slant Hack Reactor
+  figlet -f slant Lightly Calmer
   print
 fi

@@ -5,9 +5,6 @@ Prezto is the configuration framework for [Zsh][1]; it enriches the command line
 interface environment with sane defaults, aliases, functions, auto completion,
 and prompt themes.
 
-This repo contains the Zsh configuration used on all workstations at Hack Reactor.
-The intructions below assume that you've already provisioned the workstation
-using ansible. In the future, this entire process will be automated using ansible.
 
 Installation
 ------------
@@ -24,7 +21,7 @@ version is 4.3.11.
 
   2. Clone the repository:
 
-        git clone --recursive https://github.com/hackreactor-labs/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+        git clone --recursive https://github.com/aftermathew/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
   3. Create a new Zsh configuration by copying the Zsh configuration files
      provided:
@@ -42,8 +39,8 @@ Getting Started
 
   1. Read the runcoms readme by running `open ~/.zprezto/runcoms/README.md` to get a sense of how prezto works and how to customize your shell further.
 
-  2. You can start by changing the default welcome message from "Hack Reactor" by editing `~/.zprezto/runcoms/zlogin`
-  
+  2. You can start by changing the default welcome message from "Lightly Calmer" by editing `~/.zprezto/runcoms/zlogin`
+
   3. If you like, install the Solarized color schemes by running
 
         open "${ZDOTDIR:-$HOME}"/.zprezto/assets/SolarizedDarkxterm-256color.terminal && open "${ZDOTDIR:-$HOME}"/.zprezto/assets/SolarizedLightxterm-256color.terminal
@@ -62,8 +59,8 @@ If your wings get burned because you've flown too close to the sun, fear not! Fo
         chsh -s /bin/bash
 
   3. Open a new Zsh terminal window or tab.
-  
-  
+
+
 ### Troubleshooting
 
 If you are not able to find certain commands after switching to *Prezto*,
@@ -144,4 +141,3 @@ SOFTWARE.
 [6]: http://gitref.org
 [7]: http://www.bash2zsh.com/zsh_refcard/refcard.pdf
 [8]: http://grml.org/zsh/zsh-lovers.html
-
