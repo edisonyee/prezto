@@ -17,8 +17,8 @@ fi
 # Editors
 #
 
-export EDITOR='subl'
-export VISUAL='nano'
+export EDITOR='atom'
+export VISUAL='emacs'
 export PAGER='less'
 
 #
@@ -44,6 +44,7 @@ typeset -gU cdpath fpath mailpath path
 # Set the list of directories that Zsh searches for programs.
 path=(
   $HOME/bin
+  /usr/local/git/bin
   /usr/local/{bin,sbin}
   /usr/local/heroku/bin:$PATH
   $path
@@ -76,4 +77,3 @@ TMPPREFIX="${TMPDIR%/}/zsh"
 if [[ ! -d "$TMPPREFIX" ]]; then
   mkdir -p "$TMPPREFIX"
 fi
-
